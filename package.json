@@ -1,0 +1,21 @@
+{
+  "name": "logseq-display-math",
+  "version": "1.0.0",
+  "description": "Make all math render in display style",
+  "scripts": {
+    "build": "esbuild index.ts --minify --bundle --outfile=index.js"
+  },
+  "keywords": [],
+  "author": "Allan Chain",
+  "license": "MIT",
+  "devDependencies": {
+    "@logseq/libs": "^0.0.15",
+    "@types/katex": "^0.16.0",
+    "esbuild": "^0.18.0"
+  },
+  "logseq": {
+    "id": "logseq-display-math",
+    "main": "index.html",
+    "icon": "icon.svg"
+  }
+}
