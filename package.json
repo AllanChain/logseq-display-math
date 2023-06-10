@@ -1,6 +1,6 @@
 {
   "name": "logseq-display-math",
-  "version": "0.1.0",
+  "version": "0.1.1-debug.0",
   "description": "Make all math render in display style",
   "scripts": {
     "build": "esbuild index.ts --minify --bundle --outfile=index.js"
