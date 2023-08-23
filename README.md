@@ -5,7 +5,7 @@
   Logseq Display Math
 </h1>
 <p align=center>
-  <em>Tweak LaTeX formula display and style.</em>
+  <em>Tweak the display and style of LaTeX formulas.</em>
 </p>
 
 ![screenshot](https://github.com/AllanChain/logseq-display-math/assets/36528777/c8d92265-82f9-4858-997a-8a3b7342700e)
