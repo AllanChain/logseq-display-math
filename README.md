@@ -8,12 +8,12 @@
   <em>Tweak LaTeX rendering and styling</em>
 </p>
 
-![screenshot](https://github.com/AllanChain/logseq-display-math/assets/36528777/c8d92265-82f9-4858-997a-8a3b7342700e)
-
 ## Features
 
 - Make all math render in display style.
 - Configurable KaTeX macros in settings.
+
+![screenshot](https://github.com/AllanChain/logseq-display-math/assets/36528777/c8d92265-82f9-4858-997a-8a3b7342700e)
 
 ## How it works
 
