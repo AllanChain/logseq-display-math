@@ -15,6 +15,7 @@
   },
   "logseq": {
     "id": "logseq-display-math",
+    "title": "Display Math",
     "main": "index.html",
     "icon": "icon.svg"
   }
