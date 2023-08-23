@@ -12,11 +12,18 @@ function main () {
         '\\differentialD': '\\mathrm{d}',
       },
     },
+    {
+      title: 'Prefer Display Mode',
+      description: 'Render inline math in `\\displaystyle`',
+      key: 'preferDisplay',
+      type: 'boolean',
+      default: true,
+    },
   ])
   logseq.Experiments.registerExtensionsEnhancer('katex', async (katex) => {
     const render = katex.render
     katex.render = (expression: string, baseNode: Node, options: KatexOptions) => {
-      if (!options.displayMode) {
+      if (logseq.settings?.preferDisplay && !options.displayMode) {
         expression = '\\displaystyle ' + expression
       }
       options.macros = {
