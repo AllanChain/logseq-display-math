@@ -1,6 +1,6 @@
 {
   "name": "logseq-display-math",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tweak the display and style of LaTeX formulas.",
   "scripts": {
     "build": "esbuild index.ts --minify --bundle --outfile=index.js"
