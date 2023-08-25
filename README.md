@@ -7,6 +7,12 @@
 <p align=center>
   <em>Tweak LaTeX rendering and styling</em>
 </p>
+<p align=center>
+  <a href="https://github.com/AllanChain/logseq-display-math/releases">
+    <img src="https://img.shields.io/github/v/release/AllanChain/logseq-display-math" alt="GitHub release">
+  </a>
+  <img src="https://img.shields.io/github/downloads/AllanChain/logseq-display-math/total" alt="total downloads">
+</p>
 
 ## Features
 
